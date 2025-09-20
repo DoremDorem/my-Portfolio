@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_axbtt7a",  // Replace with your EmailJS Service ID
-        "template_1ziboq3",  // Replace with your EmailJS Template ID
+        "service_nagkzuj",  // Replace with your EmailJS Service ID
+        "template_zn3umzq",  // Replace with your EmailJS Template ID
         form.current,
-        "Rz7W9pVF0HdDryNNL"  // Replace with your EmailJS Public Key
+        "2WyQ4xB3EaQRrwSGO"  // Replace with your EmailJS Public Key
       )
       .then(
         () => {
@@ -72,14 +72,14 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
           <input
             type="email"
-            name="user_email"
+            name="email"
             placeholder="Your Email"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
           <input
             type="text"
-            name="user_name"
+            name="name"
             placeholder="Your Name"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"

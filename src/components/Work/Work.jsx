@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { projects } from "../../constants";
-
+import {useClerk,useUser,UserButton} from "@clerk/clerk-react"
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
+
+  const {user}=useUser();
 
   const handleOpenModal = (project) => {
     setSelectedProject(project);
@@ -28,7 +30,8 @@ const Work = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      {user?
+            <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
             key={project.id}
@@ -62,7 +65,10 @@ const Work = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div>:
+       <p className="text-center text-white">First Login Then See All Project Demo And code</p>
+      }
+     
 
       {/* Modal Container */}
       {selectedProject && (

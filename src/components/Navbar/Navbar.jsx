@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {useClerk,useUser,UserButton} from "@clerk/clerk-react"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const {openSignIn}=useClerk()
+  const {user}=useUser();
 
   // Detect scroll and change navbar background
   useEffect(() => {
@@ -68,9 +72,14 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        {
+          user?<UserButton/>:
+          <button className="text-gray-200 w-[120px] hover:bg-orange-600 duration-200 bg-orange-700 rounded-full p-2 text-md" onClick={()=>openSignIn()}>Login</button>
+        }
+        
 
         {/* Social Icons */}
-        <div className="hidden md:flex space-x-4">
+        {/* <div className="hidden md:flex space-x-4">
           <a
             href="https://github.com/DoremDorem"
             target="_blank"
@@ -87,7 +96,7 @@ const Navbar = () => {
           >
             <FaLinkedin size={24} />
           </a>
-        </div>
+        </div> */}
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">

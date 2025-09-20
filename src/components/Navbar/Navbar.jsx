@@ -34,6 +34,7 @@ const Navbar = () => {
     { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
+    {id:"more-about-me",label:"More About Me"}
   ];
 
   return (
@@ -61,7 +62,7 @@ const Navbar = () => {
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
-              <button onClick={() => handleMenuItemClick(item.id)}>
+              <button className={`${item.label==='More About Me'?' text-white  rounded-full  font-bold transition duration-300 transform hover:scale-105':''}`} onClick={() => handleMenuItemClick(item.id)}>
                 {item.label}
               </button>
             </li>

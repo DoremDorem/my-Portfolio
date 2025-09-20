@@ -59,8 +59,7 @@ const About = () => {
             }}
           >
             DOWNLOAD CV
-          </a>
-          
+          </a> 
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">

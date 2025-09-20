@@ -8,6 +8,8 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
+import MoreAboutMe from "./components/About/MoreAboutMe";
+import {BrowserRouter,Route,Routes} from "react-router-dom"
 
 const App = () => {
   return (
@@ -24,6 +26,7 @@ const App = () => {
         <Experience />
         <Work />
         <Education />
+        <MoreAboutMe/>
         <Contact />
         <Footer />
       </div>

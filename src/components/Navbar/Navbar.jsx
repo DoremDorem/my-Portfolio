@@ -74,7 +74,7 @@ const Navbar = () => {
         </ul>
         {
           user?<UserButton/>:
-          <button className="text-gray-200 w-[120px] hover:bg-orange-600 duration-200 bg-orange-700 rounded-full p-2 text-md" onClick={()=>openSignIn()}>Login</button>
+          <button className="text-gray-200 w-[90px] md:w-[120px] hover:bg-orange-600 duration-200 bg-orange-700 rounded-full p-2 text-sm md:text-md" onClick={()=>openSignIn()}>Login</button>
         }
         
 
@@ -132,7 +132,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/codingmastr"
+                href="https://github.com/DoremDorem"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -140,7 +140,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                href="https://www.linkedin.com/in/akash-kumar-maurya-21b68a378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"

@@ -53,6 +53,7 @@ import webverLogo from './assets/work_logo/5.jpg';
 import cmLogo from './assets/work_logo/10.webp';
 import imagesearchLogo from './assets/work_logo/12.jpg';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import lmsLogo from './assets/work_logo/lms.png';
 // import randombg from './assets/work_logo/rn.avif';
 
 
@@ -301,6 +302,16 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "Javascript"],
       github: "https://github.com/DoremDorem/Random-Color-Generator.git",
       webapp: "https://doremdorem.github.io/Random-Color-Generator/",
+    },
+       {
+      id: 10,
+      title: "LMS WEBSITE FRONTEND",
+      description:
+      "Educator Dashboard course details page my enrollment and the course preview",
+      image: lmsLogo,
+      tags: ["REACT JS","CLERK"],
+      github: "https://github.com/DoremDorem/lms.git",
+      webapp: "https://lms-client-mauve.vercel.app/",
     },
     
   ];  

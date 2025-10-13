@@ -54,6 +54,8 @@ import cmLogo from './assets/work_logo/10.webp';
 import imagesearchLogo from './assets/work_logo/12.jpg';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import lmsLogo from './assets/work_logo/lms.png';
+import resumeLogo from './assets/work_logo/resume.png';
+
 // import randombg from './assets/work_logo/rn.avif';
 
 
@@ -312,6 +314,16 @@ export const SkillsInfo = [
       tags: ["REACT JS","CLERK"],
       github: "https://github.com/DoremDorem/lms.git",
       webapp: "https://lms-client-mauve.vercel.app/",
+    },
+    {
+      id: 11,
+      title: "RESUME BUILDER WEBSITE",
+      description:
+      "Resume builder website with AI enhanced feature we can create new resume and also upload existing resume and enhance the resume ATS Score",
+      image: resumeLogo,
+      tags: ["REACT JS","NODE JS","EXPRESS JS","REDUX TOOLKIT","MONGO DB"],
+      github: "https://github.com/DoremDorem/Resume-Builder-Website.git",
+      webapp: "https://resume-builder-website-client.vercel.app/",
     },
     
   ];  

@@ -331,8 +331,8 @@ export const SkillsInfo = [
       description:
       "In this app User can make our invoice detail and can upoad company logo taxex and also download a simple pdf",
       tags: ["HTML","CSS","JAVASCRIPT","TAILWIND CSS","JSPDF"],
-      github: "https://github.com/DoremDorem/Invoice-App.git",
-      webapp: "https://doremdorem.github.io/Invoice-App/",
+      github: "https://github.com/DoremDorem/invoice-app.git",
+      webapp: " https://doremdorem.github.io/invoice-app/",
     },
     
   ];  

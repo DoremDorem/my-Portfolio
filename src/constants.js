@@ -325,5 +325,14 @@ export const SkillsInfo = [
       github: "https://github.com/DoremDorem/Resume-Builder-Website.git",
       webapp: "https://resume-builder-website-client.vercel.app/",
     },
+    {
+      id: 12,
+      title: "INVOICE APP",
+      description:
+      "In this app User can make our invoice detail and can upoad company logo taxex and also download a simple pdf",
+      tags: ["HTML","CSS","JAVASCRIPT","TAILWIND CSS","JSPDF"],
+      github: "https://github.com/DoremDorem/Invoice-App.git",
+      webapp: "https://doremdorem.github.io/Invoice-App/",
+    },
     
   ];  

@@ -334,5 +334,14 @@ export const SkillsInfo = [
       github: "https://github.com/DoremDorem/invoice-app.git",
       webapp: " https://doremdorem.github.io/invoice-app/",
     },
+    {
+      id: 13,
+      title: "QUIZ APP",
+      description:
+      "Attempt quiz acording to category and can down load pdf your result",
+      tags: ["HTML","CSS","JAVASCRIPT","TAILWIND CSS","JSPDF"],
+      github: "https://github.com/DoremDorem/simple-quiz-app.git",
+      webapp: "https://simple-quiz-app-blue-seven.vercel.app/",
+    },
     
   ];  

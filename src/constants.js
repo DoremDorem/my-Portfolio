@@ -58,6 +58,7 @@ import lmsLogo from './assets/work_logo/lms.png';
 import resumeLogo from './assets/work_logo/resume.png';
 import translaterLogo from "./assets/work_logo/translator.png"
 import quizLogo from "./assets/work_logo/quiz.png"
+import ExpenseLogo from "./assets/work_logo/expense.png"
 // import randombg from './assets/work_logo/rn.avif';
 
 
@@ -355,6 +356,16 @@ export const SkillsInfo = [
       tags: ["React Js","CSS","JAVASCRIPT","TAILWIND CSS","API"],
       github: "https://github.com/DoremDorem/Transvibe-Translator-App.git",
       webapp: "https://transvibe-translator-app.vercel.app/",
+    },
+     {
+      id: 14,
+      title: "Expense Tracker App",
+      description:
+      "Track Your Expense Easily",
+      image:ExpenseLogo,
+      tags: ["React Js","MONGODB","NODE JS","TAILWIND CSS","API","EXPRESS JS"],
+      github: "https://github.com/DoremDorem/Expense-Tracker-App.git",
+      webapp: "https://expense-tracker-app-client-five.vercel.app/",
     },
     
   ];  

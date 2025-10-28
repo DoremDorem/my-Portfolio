@@ -45,17 +45,19 @@ import vpsLogo from './assets/education_logo/mh.jpg';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/chat.svg';
-import movierecLogo from './assets/work_logo/movie.webp';
-import taskremLogo from './assets/work_logo/net.webp';
-import npmLogo from './assets/work_logo/9.png';
-import webverLogo from './assets/work_logo/5.jpg';
+import csprepLogo from './assets/work_logo/quick.png';
+import movierecLogo from './assets/work_logo/moviet.png';
+import taskremLogo from './assets/work_logo/show.png';
+import npmLogo from './assets/work_logo/chata.png';
+import webverLogo from './assets/work_logo/for.png';
 import cmLogo from './assets/work_logo/10.webp';
-import imagesearchLogo from './assets/work_logo/12.jpg';
+import imagesearchLogo from './assets/work_logo/port.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import scientificCalsi from './assets/work_logo/calsi.png';
 import lmsLogo from './assets/work_logo/lms.png';
 import resumeLogo from './assets/work_logo/resume.png';
-
+import translaterLogo from "./assets/work_logo/translator.png"
+import quizLogo from "./assets/work_logo/quiz.png"
 // import randombg from './assets/work_logo/rn.avif';
 
 
@@ -290,7 +292,7 @@ export const SkillsInfo = [
       title: "Scientific Calculator",
       description:
       "calculator using HTML CSS and JS",
-      image: removebgLogo,
+      image:scientificCalsi,
       tags: ["HTML", "CSS", "Javascript"],
       github: "https://github.com/DoremDorem/Scientific-Calculator.git",
       webapp: "https://scientific-calsi-three.vercel.app/",
@@ -339,9 +341,20 @@ export const SkillsInfo = [
       title: "QUIZ APP",
       description:
       "Attempt quiz acording to category and can down load pdf your result",
+      image:quizLogo,
       tags: ["HTML","CSS","JAVASCRIPT","TAILWIND CSS","JSPDF"],
       github: "https://github.com/DoremDorem/simple-quiz-app.git",
       webapp: "https://simple-quiz-app-blue-seven.vercel.app/",
+    },
+    {
+      id: 14,
+      title: "Language Translator",
+      description:
+      "Translate your one language to other",
+      image:translaterLogo,
+      tags: ["React Js","CSS","JAVASCRIPT","TAILWIND CSS","API"],
+      github: "https://github.com/DoremDorem/Transvibe-Translator-App.git",
+      webapp: "https://transvibe-translator-app.vercel.app/",
     },
     
   ];  

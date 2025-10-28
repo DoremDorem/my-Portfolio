@@ -40,7 +40,7 @@ const Work = () => {
           >
             <div className="p-4">
               <img
-                src={project.image}
+                src={project.image?project.image:project.title}
                 alt={project.title}
                 className="w-full h-48 object-cover rounded-xl"
               />
@@ -86,7 +86,7 @@ const Work = () => {
             <div className="flex flex-col">
               <div className="w-full flex justify-center bg-gray-900 px-4">
                 <img
-                  src={selectedProject.image}
+                  src={selectedProject.image?selectedProject.image:selectedProject.title}
                   alt={selectedProject.title}
                   className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
                 />
